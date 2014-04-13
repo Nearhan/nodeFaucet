@@ -1,0 +1,25 @@
+{
+  "name": "nodeFaucet",
+  "version": "0.0.0",
+  "description": "Twitter Streaming Sentiment Web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Nearhan/nodeFaucet.git"
+  },
+  "author": "Farhan Syed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nearhan/nodeFaucet/issues"
+  },
+  "homepage": "https://github.com/Nearhan/nodeFaucet",
+  "dependencies": {
+    "express": "^4.0.0",
+    "twit": "^1.1.13",
+    "socket.io": "^0.9.16"
+  }
+}
